@@ -2,7 +2,6 @@
 <html>
 	<head>
 		<title>UD-Team's official site!</title>
-		<meta charset="utf-8">
 		<link rel="stylesheet" href="Styles.css">
 		<style>
 			body {
@@ -24,45 +23,5 @@
 		<p><i>Our repository is compatible with both Cydia and Sileo!</i></p>
 		<p>Add the following to your sources: <b>ud-team.github.io/repo</b></p>
 		<p>Enjoy a small placeholder until I got time to finish the site:</p>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/94/three.min.js"></script>
-		<script>
-
-			var camera, scene, renderer;
-			var geometry, material, mesh;
-
-			function init() {
-
-				camera = new THREE.PerspectiveCamera( 75, window.innerWidth / window.innerHeight, 0.1, 10 );
-				camera.position.z = 3;
-
-				scene = new THREE.Scene();
-				scene.background = new THREE.Color( 0xffffff );
-
-				geometry = new THREE.SphereGeometry( 1 );
-				material = new THREE.MeshBasicMaterial( { color: 0x000000, wireframe: true } );
-
-				mesh = new THREE.Mesh( geometry, material );
-				scene.add( mesh );
-
-				renderer = new THREE.WebGLRenderer( { antialias: true } );
-				renderer.setSize( window.innerWidth, window.innerHeight );
-				document.body.appendChild( renderer.domElement );				
-				
-			}
-
-			function animate( time ) {
-
-				mesh.rotation.x = time * 0.0005;
-				mesh.rotation.y = time * 0.001;
-
-				renderer.render( scene, camera );
-				requestAnimationFrame( animate );
-
-			}
-
-			init();
-			requestAnimationFrame( animate );
-
-		</script>
 	</body>
 </html>
