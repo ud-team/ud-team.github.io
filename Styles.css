@@ -1,0 +1,55 @@
+h1 {
+	font-family: arial, helvetica, serif;
+	font-variant: small-caps;
+	color: gray
+}
+
+h2 {
+	font-family: arial, helvetica, serif;
+	color: gray
+}
+
+h3 {
+	font-family: arial, helvetica, serif;
+	color: gray
+}
+
+p {
+	font-family: arial, helvetica, serif;
+	color: gray
+}
+
+a {
+	font-family: arial, helvetica, serif;
+	color: blue;
+	text-decoration: underline;
+}
+
+li {
+	font-family: arial, helvetica, serif;
+	color: gray;
+}
+
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #287DFF;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #004FC8;
+  color: white;
+}
