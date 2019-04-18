@@ -33,6 +33,7 @@ li {
 .topnav {
   background-color: #333;
   overflow: hidden;
+  margin: 0;
 }
 
 .topnav a {
