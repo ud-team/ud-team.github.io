@@ -62,13 +62,11 @@ li {
 }
 
 .topnav a:hover {
-	background-color: #ff6666;
-	color: black;
+	text-decoration: bold;
 }
 
 .topnav a.active {
-	background-color: #ff3333;
-	color: white;
+	text-decoration: bold;
 }
 
 .fuckMargins {
