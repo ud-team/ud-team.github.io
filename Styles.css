@@ -1,6 +1,15 @@
 body {
 	background-color: #212121;
 }
+
+.greeting {
+	font-size: xx-large;
+	font-family: arial, helvetica, serif;
+	font-variant: small-caps;
+	text-align: center;
+	color: #FFFFFF;
+}
+
 h1 {
 	font-family: arial, helvetica, serif;
 	font-variant: small-caps;
