@@ -1,3 +1,6 @@
+body {
+	background-color: #212121;
+}
 h1 {
 	font-family: arial, helvetica, serif;
 	font-variant: small-caps;
@@ -31,26 +34,29 @@ li {
 }
 
 .topnav {
-  background-color: #333;
-  overflow: hidden;
-  margin: 0;
+	background-color: #333;
+	overflow: hidden;
 }
 
 .topnav a {
-  float: left;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
+	float: left;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
 }
 
 .topnav a:hover {
-  background-color: #ff6666;
-  color: black;
+	background-color: #ff6666;
+	color: black;
 }
 
 .topnav a.active {
-  background-color: #ff3333;
-  color: white;
+	background-color: #ff3333;
+	color: white;
+}
+
+.fuckMargins {
+	margin: 0;
 }
