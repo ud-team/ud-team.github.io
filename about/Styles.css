@@ -70,6 +70,11 @@ li {
 	font-weight: bold;
 }
 
-.fuckMargins {
-	margin: 0;
+/* Fix Twitter embeds */
+.twitter_embeds {
+	display: flex;
+}
+
+.twitter_embed {
+  padding: 2px;
 }
