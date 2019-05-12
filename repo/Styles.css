@@ -2,18 +2,12 @@ body {
 	background-color: #212121;
 }
 
-.greeting {
+h1 {
 	font-size: xx-large;
 	font-family: arial, helvetica, serif;
 	font-variant: small-caps;
 	text-align: center;
 	border: 100px dashed #212121;
-	color: #FFFFFF;
-}
-
-h1 {
-	font-family: arial, helvetica, serif;
-	font-variant: small-caps;
 	color: #FFFFFF;
 }
 
