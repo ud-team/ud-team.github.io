@@ -24,7 +24,7 @@ p {
 
 a {
 	font-family: arial, helvetica, serif;
-	color: blue;
+	color: #CBCBCB;
 	text-decoration: underline;
 }
 
@@ -34,7 +34,7 @@ li {
 }
 
 .topnav {
-	background-color: #CBCBCB;
+	background-color: #191919;
 	overflow: hidden;
 }
 
