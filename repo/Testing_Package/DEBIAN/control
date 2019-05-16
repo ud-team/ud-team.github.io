@@ -3,8 +3,8 @@ Name: Testing Package
 Version: 1.0
 Architecture: iphoneos-arm
 Description: THIS IS A TEST PACKAGE! IT DOESN'T DO ANYTHING!
-Depiction: http://ud-team.github.io/repo/depictions/Testing_Package.html/
-Homepage: http://ud-team.github.io/
+Depiction: https://ud-team.github.io/repo/depictions/Testing_Package.html
+Homepage: https://ud-team.github.io/
 Maintainer: Flipp3rrr <flipp3rrr@protonmail.com>
 Author: Flipp3rrr <flipp3rrr@protonmail.com>
 Section: TESTING
