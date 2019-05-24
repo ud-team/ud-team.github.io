@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+
+<dict>
+	<key>name</key>
+	<string>size</string>
+	<key>type</key>
+	<string>select</string>
+	<key>label</key>
+	<string>Widget Size</string>
+	<key>default</key>
+	<string>75%</string>
+	<key>options</key>
+    <dict>
+     	<key>100%</key>
+     	<string>100</string>
+		<key>90%</key>
+		<string>90</string>
+		<key>80%</key>
+		<string>80</string>
+     	<key>75%</key>
+     	<string>75</string>
+    	     <key>65%</key>
+    	     <string>65</string>
+		<key>55%</key>
+		<string>55</string>
+		<key>45%</key>
+		<string>45</string>
+    </dict>
+</dict>
+
+</array>
+</plist>

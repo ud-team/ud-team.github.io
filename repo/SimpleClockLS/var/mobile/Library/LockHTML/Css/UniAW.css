@@ -1,0 +1,485 @@
+/* UniAW5.0 CSS By Ian Nicoll with credit to Dacal 
+
+
+
+===========================================================================*/
+
+
+
+body{
+
+
+
+	background-color: transparent;
+
+
+
+	position: absolute;
+
+
+
+	margin: 0;
+
+
+
+	padding: 0;
+
+
+
+	width: 153px;
+
+
+
+	height: 155px;
+
+
+
+	font-family: Helvetica;
+
+
+
+	}
+
+
+#Widget{
+position:absolute;
+width:270px;
+top:0px;
+left:0px;
+-webkit-animation: fadein 1s linear 1 normal;
+-webkit-animation-fill-mode: forwards;
+-webkit-transform:scale(1);
+}
+	
+
+
+
+	/* WEBKIT ANIMATIONS CODES   
+
+
+
+===================================================================== */
+
+
+
+	
+
+
+
+@-webkit-keyframes fadein{		/* Fade in animation for digital clock */
+
+0%		{opacity : 0;}
+50%		{opacity : 0;}
+100%		{opacity : 1;}}
+
+
+
+	/* FOR ANALOG CLOCK
+
+
+
+===================================================================== */     
+
+
+
+#clockface{
+
+
+
+	width: 153px; 
+
+
+
+	height: 155px; 
+
+
+
+	position: absolute; 
+
+
+
+	top: 0px; 
+
+
+
+	right: 0px; 
+
+
+
+	down: 0px; 
+
+
+
+	left: 0px;
+
+
+
+	z-index: 200;	
+
+
+
+	opacity: 0.0;
+
+
+
+	-webkit-animation: fadein 3s linear 1 normal;
+
+
+
+	-webkit-animation-fill-mode: forwards;
+
+
+
+	display: ;}
+
+
+
+	
+
+
+
+	
+
+
+
+#analogclock{
+
+
+
+	list-style: none;
+
+
+
+	margin: 0;
+
+
+
+	padding: 0;
+
+
+
+    font-family: Digital; 
+
+
+
+    color: black;
+
+
+
+    font-size: 22px;
+
+
+
+    text-shadow: black 0px 0px 0px;	
+
+
+
+	}
+
+
+
+
+
+
+
+    #hour {
+
+
+
+	background: url('../Images/clockhands/hourhand.png') 12.5px 33.5px no-repeat;
+
+
+
+	position: absolute;
+
+
+
+	width: 50px;
+
+
+
+	height: 220px;
+
+
+
+	background-size:25px 110px;
+
+
+
+	top: -35px;
+
+
+
+	left: 51px;
+
+
+
+	z-index: 254;
+
+
+
+	opacity: 0.0;
+
+
+
+	-webkit-animation: fadein 3s linear 1 normal;
+
+
+
+	-webkit-animation-fill-mode: forwards;
+
+
+
+	display: ;	
+
+
+
+	}
+
+
+
+	
+
+
+
+    #min {
+
+
+
+	background: url('../Images/clockhands/minhand.png') 12.5px 33.5px no-repeat;
+
+
+
+	position: absolute;
+
+
+
+	width: 50px;
+
+
+
+	height: 220px;
+
+
+
+	background-size:25px 110px;
+
+
+
+	top:-35px;
+
+
+
+	left: 51px;
+
+
+
+	z-index: 258;
+
+
+
+	opacity: 0.0;
+
+
+
+	-webkit-animation: fadein 3s linear 1 normal;
+
+
+
+	-webkit-animation-fill-mode: forwards;
+
+
+
+	display: ;	
+
+
+
+	}
+
+
+
+	
+
+
+
+	#sec {
+
+
+
+	background: url('../Images/clockhands/sechand.png') 12.5px 33.5px no-repeat;
+
+
+
+	position: absolute;
+
+
+
+	width: 50px;
+
+
+
+	height: 220px;
+
+
+
+	background-size:25px 110px;
+
+
+
+	top: 2px;
+
+
+
+	left: 51px;
+
+
+
+	z-index: 253;
+
+
+
+	display: ;
+
+
+
+	opacity: 0.0;
+
+
+
+	-webkit-animation: fadein 3s linear 1 normal;
+
+
+
+	-webkit-animation-fill-mode: forwards;
+
+
+
+	display: ;	
+
+
+
+	}
+
+
+
+	
+
+
+
+	#sechandXX {
+
+
+
+	background: url('../Images/clockhands/sechandXX.png') 12.5px 33.5px no-repeat;
+
+
+
+	position: absolute;
+
+
+
+	width: 50px;
+
+
+
+	height: 220px;
+
+
+
+	background-size:25px 110px;
+
+
+
+	top:-35px;
+
+
+
+	left: 51px;
+
+
+
+	z-index: 270;
+
+
+
+	opacity: 0.0;
+
+
+
+	-webkit-animation: fadein 3s linear 1 normal;
+
+
+
+	-webkit-animation-fill-mode: forwards;
+
+
+
+	display: ;	
+
+
+
+	}
+
+
+
+	
+
+
+
+	#node {
+
+
+
+	background: url('../Images/clockhands/node.png') 12.5px 33.5px no-repeat;
+
+
+
+	position: absolute;
+
+
+
+	width: 50px;
+
+
+
+	height: 220px;
+
+
+
+	background-size:25px 110px;
+
+
+
+	top: -35px;
+
+
+
+	left: 51px;
+
+
+
+	z-index: 280;
+
+
+
+	display: ;
+
+
+
+	opacity: 0.0;
+
+
+
+	-webkit-animation: fadein 3s linear 1 normal;
+
+
+
+	-webkit-animation-fill-mode: forwards;
+
+
+
+	display: ;	
+
+
+
+	}
