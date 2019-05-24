@@ -1,0 +1,10 @@
+Package: tk.ud-team.simpleclockls
+Name: Testing Package
+Version: 1.0
+Architecture: iphoneos-arm
+Description: SimpleClockLS by Flipp3rrr
+Depiction: https://ud-team.github.io/repo/depictions/SimpleCLockLS.html
+Homepage: https://ud-team.github.io/
+Maintainer: Flipp3rrr <flipp3rrr@protonmail.com>
+Author: Flipp3rrr <flipp3rrr@protonmail.com>
+Section: XenHTML
