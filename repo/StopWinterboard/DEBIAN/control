@@ -1,0 +1,10 @@
+Package: winterboard
+Name: StopWinterboard
+Version: 999.999
+Architecture: iphoneos-arm
+Description: Stops Winterboard from installing.
+Depiction: https://ud-team.github.io/repo/depictions/StopWinterboard.html
+Homepage: https://ud-team.github.io/
+Maintainer: Flipp3rrr <flipp3rrr@protonmail.com>
+Author: Flipp3rrr <flipp3rrr@protonmail.com>
+Section: Tweaks
