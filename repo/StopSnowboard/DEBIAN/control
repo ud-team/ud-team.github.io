@@ -1,6 +1,6 @@
 Package: com.spark.snowboard
 Name: StopSnowboard
-Version: 1.0
+Version: 1.1
 Architecture: iphoneos-arm
 Description: Stops Snowboard from installing.
 Depiction: https://ud-team.github.io/repo/depictions/StopSnowboard.html
