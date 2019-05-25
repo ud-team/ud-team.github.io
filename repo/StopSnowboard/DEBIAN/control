@@ -1,5 +1,5 @@
 Package: com.spark.snowboard
-Name: Testing Package
+Name: StopSnowboard
 Version: 1.0
 Architecture: iphoneos-arm
 Description: Stops Snowboard from installing.

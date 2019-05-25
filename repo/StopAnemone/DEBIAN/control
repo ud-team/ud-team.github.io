@@ -1,5 +1,5 @@
 Package: com.anemonetheming.anemone
-Name: Testing Package
+Name: Stop Anemone
 Version: 1.0
 Architecture: iphoneos-arm
 Description: Stops Anemone from installing.
