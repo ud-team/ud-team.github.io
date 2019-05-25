@@ -3,7 +3,7 @@ Name: StopWinterboard
 Provides: winterboard
 Replaces: winterboard
 Conflicts: winterboard
-Version: 1.0.1
+Version: 1.0.2
 Architecture: iphoneos-arm
 Description: Stops Winterboard from installing.
 Depiction: https://ud-team.github.io/repo/depictions/StopWinterboard.html
