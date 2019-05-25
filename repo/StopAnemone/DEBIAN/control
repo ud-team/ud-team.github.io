@@ -1,6 +1,9 @@
-Package: com.anemonetheming.anemone
+Package: tk.ud-team.stopanemone
+Provides: com.anemonetheming.anemone
+Replaces: com.anemonetheming.anemone
+Conflicts: com.anemonetheming.anemone
 Name: StopAnemone
-Version: 999.999
+Version: 1.0.1
 Architecture: iphoneos-arm
 Description: Stops Anemone from installing.
 Depiction: https://ud-team.github.io/repo/depictions/Anemone.html

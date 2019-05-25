@@ -1,6 +1,9 @@
-Package: com.spark.snowboard
+Package: tk.ud-team.stopsnowboard
 Name: StopSnowboard
-Version: 999.999
+Provides: com.spark.snowboard
+Replaces: com.spark.snowboard
+Conflicts: com.spark.snowboard
+Version: 1.0.1
 Architecture: iphoneos-arm
 Description: Stops Snowboard from installing.
 Depiction: https://ud-team.github.io/repo/depictions/StopSnowboard.html
