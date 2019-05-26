@@ -6,7 +6,7 @@ Name: StopAnemone
 Version: 1.0.1
 Architecture: iphoneos-arm
 Description: Stops Anemone from installing.
-Depiction: https://ud-team.github.io/repo/depictions/Anemone.html
+Depiction: https://ud-team.github.io/repo/depictions/StopAnemone.html
 Homepage: https://ud-team.github.io/
 Maintainer: Flipp3rrr <flipp3rrr@protonmail.com>
 Author: Flipp3rrr <flipp3rrr@protonmail.com>
