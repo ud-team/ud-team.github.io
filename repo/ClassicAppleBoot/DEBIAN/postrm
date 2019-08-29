@@ -1,0 +1,4 @@
+#!/bin/sh
+cd "/"
+mv "/Sytem/Library/PrivateFrameworks/ProgressUI.framework/apple-logo-black-n84@2x~iphone.png.old" "/Sytem/Library/PrivateFrameworks/ProgressUI.framework/apple-logo-black-n84@2x~iphone.png" || set -e
+mv "/Sytem/Library/PrivateFrameworks/ProgressUI.framework/apple-logo-black@2x~iphone.png.old" "/Sytem/Library/PrivateFrameworks/ProgressUI.framework/apple-logo-black@2x~iphone.png" || set -e
