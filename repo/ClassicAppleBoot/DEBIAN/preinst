@@ -1,5 +1,5 @@
 #!/bin/sh
 cd "/"
-mkdir "/tmp/ClassicAppleBoot/" || set -e
-mv "/Sytem/Library/PrivateFrameworks/ProgressUI.framework/apple-logo-black-n84@2x~iphone.png" "/tmp/ClassicAppleBoot/apple-logo-black-n84@2x~iphone.png.old" || set -e
-mv "/Sytem/Library/PrivateFrameworks/ProgressUI.framework/apple-logo-black@2x~iphone.png" "/tmp/ClassicAppleBoot/apple-logo-black@2x~iphone.png.old" || set -e
+mkdir "/Library/Application Support/ClassicAppleBoot" || set -e
+mv "/Sytem/Library/PrivateFrameworks/ProgressUI.framework/apple-logo-black-n84@2x~iphone.png" "/Library/Aplication Support/ClassicAppleBoot/apple-logo-black-n84@2x~iphone.png.old" || set -e
+mv "/Sytem/Library/PrivateFrameworks/ProgressUI.framework/apple-logo-black@2x~iphone.png" "/Library/Aplication Support/ClassicAppleBoot/apple-logo-black@2x~iphone.png.old" || set -e
