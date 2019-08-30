@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 echo "The regular boot logo will be backed up before installing..."
 cd "/"
 echo "Creating backup directory in /Library/Application Support/ClassicAppleBoot/..."

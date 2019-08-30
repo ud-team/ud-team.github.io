@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 echo "The backup made before installation will now be restored..."
 cd "/"
 echo "Restoring files from /Library/Application Support/ClassicAppleBoot..."
