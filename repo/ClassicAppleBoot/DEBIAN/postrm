@@ -2,8 +2,8 @@
 echo "The backup made before installation will now be restored..."
 cd "/"
 echo "Restoring files from /Library/Application Support/ClassicAppleBoot..."
-mv -f "/Library/Application Support/ClassicAppleBoot/apple-logo-black-n84@2x~iphone.png" "/Sytem/Library/PrivateFrameworks/ProgressUI.framework/" || set -e && echo "Failed backup!"
-mv -f "/Library/Application Support/ClassicAppleBoot/apple-logo-black@2x~iphone.png" "/Sytem/Library/PrivateFrameworks/ProgressUI.framework/" || set -e && echo "Failed backup!"
+sudo mv -f "/Library/Application Support/ClassicAppleBoot/apple-logo-black-n84@2x~iphone.png" "/Sytem/Library/PrivateFrameworks/ProgressUI.framework/" || set -e && echo "Failed to restore backup!"
+sudo mv -f "/Library/Application Support/ClassicAppleBoot/apple-logo-black@2x~iphone.png" "/Sytem/Library/PrivateFrameworks/ProgressUI.framework/" || set -e && echo "Failed to restore backup!"
 echo "Removing backup folder..."
-rmdir "/Library/Application Support/ClassicAppleBoot/" || set -e
+sudo rmdir "/Library/Application Support/ClassicAppleBoot/" || set -e && echo "Failed to remove directory!"
 echo "Finished restoring the backup!"
