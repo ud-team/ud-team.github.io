@@ -1,5 +1,9 @@
 #!/bin/sh
+echo "The regular boot logo will be backed up before installing..."
 cd "/"
+echo "Creating backup directory in /Library/Application Support/ClassicAppleBoot/..."
 mkdir "/Library/Application Support/ClassicAppleBoot" || set -e
-mv "/Sytem/Library/PrivateFrameworks/ProgressUI.framework/apple-logo-black-n84@2x~iphone.png" "/Library/Aplication Support/ClassicAppleBoot/apple-logo-black-n84@2x~iphone.png" || set -e
-mv "/Sytem/Library/PrivateFrameworks/ProgressUI.framework/apple-logo-black@2x~iphone.png" "/Library/Aplication Support/ClassicAppleBoot/apple-logo-black@2x~iphone.png" || set -e
+echo "Copying over files..."
+mv "/Sytem/Library/PrivateFrameworks/ProgressUI.framework/apple-logo-black-n84@2x~iphone.png" "/Library/Application Support/ClassicAppleBoot/apple-logo-black-n84@2x~iphone.png" || set -e
+mv "/Sytem/Library/PrivateFrameworks/ProgressUI.framework/apple-logo-black@2x~iphone.png" "/Library/Application Support/ClassicAppleBoot/apple-logo-black@2x~iphone.png" || set -e
+echo "Finished backing up!"

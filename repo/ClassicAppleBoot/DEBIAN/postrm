@@ -1,5 +1,9 @@
 #!/bin/sh
+echo "The backup made before installation will now be restored..."
 cd "/"
-mv "/Library/Aplication Support/ClassicAppleBoot/apple-logo-black-n84@2x~iphone.png" "/Sytem/Library/PrivateFrameworks/ProgressUI.framework/apple-logo-black-n84@2x~iphone.png" || set -e
-mv "/Library/Aplication Support/ClassicAppleBoot/apple-logo-black@2x~iphone.png" "/Sytem/Library/PrivateFrameworks/ProgressUI.framework/apple-logo-black@2x~iphone.png" || set -e
-rmdir "/Library/Aplication Support/ClassicAppleBoot/" || set -e
+echo "Restoring files from /Library/Application Support/ClassicAppleBoot..."
+mv "/Library/Application Support/ClassicAppleBoot/apple-logo-black-n84@2x~iphone.png" "/Sytem/Library/PrivateFrameworks/ProgressUI.framework/apple-logo-black-n84@2x~iphone.png" || set -e
+mv "/Library/Application Support/ClassicAppleBoot/apple-logo-black@2x~iphone.png" "/Sytem/Library/PrivateFrameworks/ProgressUI.framework/apple-logo-black@2x~iphone.png" || set -e
+echo "Removing backup folder..."
+rmdir "/Library/Application Support/ClassicAppleBoot/" || set -e
+echo "Finished restoring the backup!"
