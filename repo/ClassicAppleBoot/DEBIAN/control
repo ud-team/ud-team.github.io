@@ -1,6 +1,6 @@
 Package: tk.ud-team.ClassicAppleBoot
 Name: ClassicAppleBoot
-Version: 0.0.17
+Version: 0.0.18
 Architecture: iphoneos-arm
 Description: Replaces your boot logo with the old Apple logo.
 Depiction: https://ud-team.github.io/repo/depictions/ClassicAppleBoot.html
