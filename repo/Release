@@ -1,9 +1,9 @@
 
-Origin: UD-Team's repo
-Label: UD-Team's repo
+Origin: UD-Team's official repo
+Label: UD-Team's official repo
 Suite: stable
-Version: 1.0
+Version: 1.1
 Codename: ios
 Architectures: iphoneos-arm
 Components: main
-Description: UD-Team's repo
+Description: UD-Team's official repo, home to CustomBoot.
