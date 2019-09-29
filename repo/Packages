@@ -1,0 +1,73 @@
+Package: tk.ud-team.CustomBoot
+Version: 0.1.0
+Architecture: iphoneos-arm
+Maintainer: Flipp3rrr <flipp3rrr@protonmail.com>
+Filename: ./CustomBoot.deb
+Size: 17048
+MD5sum: 0e6f79638619a01f498e5ac7184ab90e
+SHA1: 12e58c0639ea2652beafb026802b8e2d2edf8f35
+SHA256: 228778313623b0ed9bcc5ef5cb06e6b8eb1089e2e846893afe75156231b33e40
+Section: Tweaks
+Homepage: https://ud-team.github.io/
+Description: A simple tweak to change your boot logo.
+Author: Flipp3rrr <flipp3rrr@protonmail.com>
+Depiction: https://ud-team.github.io/repo/depictions/ClassicAppleBoot.html
+Name: ClassicAppleBoot
+
+Package: tk.ud-team.stopanemone
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: Flipp3rrr <flipp3rrr@protonmail.com>
+Conflicts: com.anemonetheming.anemone
+Replaces: com.anemonetheming.anemone
+Provides: com.anemonetheming.anemone
+Filename: ./StopAnemone.deb
+Size: 940
+MD5sum: e9cf8917b7a894b3bfdf1b6c0047867d
+SHA1: 784f4ade8636818ef7d5b0e29f9ced841bd49b38
+SHA256: c046e31675d97bcf8bc818ea0d8a80953858cbaca87bea048ce8f9f492524712
+Section: Tweaks
+Homepage: https://ud-team.github.io/
+Description: Stops Anemone from installing.
+Author: Flipp3rrr <flipp3rrr@protonmail.com>
+Depiction: https://ud-team.github.io/repo/depictions/StopAnemone.html
+Name: StopAnemone
+
+Package: tk.ud-team.stopsnowboard
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: Flipp3rrr <flipp3rrr@protonmail.com>
+Conflicts: com.spark.snowboard
+Replaces: com.spark.snowboard
+Provides: com.spark.snowboard
+Filename: ./StopSnowboard.deb
+Size: 940
+MD5sum: 3ea7863a4b57cbc8fcfef05913585928
+SHA1: d219b6773bd051f64a5a8529bbface9b42cc15d2
+SHA256: ad9a67d2222532f5b1bd71b9261c2c93f14936a1ace7b6a47dbc3b4dc5b16054
+Section: Tweaks
+Homepage: https://ud-team.github.io/
+Description: Stops Snowboard from installing.
+Author: Flipp3rrr <flipp3rrr@protonmail.com>
+Depiction: https://ud-team.github.io/repo/depictions/StopSnowboard.html
+Name: StopSnowboard
+
+Package: tk.ud-team.stopwinterboard
+Version: 1.0.2
+Architecture: iphoneos-arm
+Maintainer: Flipp3rrr <flipp3rrr@protonmail.com>
+Conflicts: winterboard
+Replaces: winterboard
+Provides: winterboard
+Filename: ./StopWinterboard.deb
+Size: 928
+MD5sum: 9856f89d99b12df666b7856ef665d43e
+SHA1: ea211a4ec91b04b781c5ff2f2d24191db75a1328
+SHA256: 778e8b3462077d89e7dae63e984a8dc058d47c4f82fdea56d96779c75489cb74
+Section: Tweaks
+Homepage: https://ud-team.github.io/
+Description: Stops Winterboard from installing.
+Author: Flipp3rrr <flipp3rrr@protonmail.com>
+Depiction: https://ud-team.github.io/repo/depictions/StopWinterboard.html
+Name: StopWinterboard
+
