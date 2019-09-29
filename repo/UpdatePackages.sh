@@ -3,6 +3,13 @@ echo "Updating repository, this may take up to 15 seconds."
 echo "Removing old packages file..."
 rm -r Packages.bz2
 
+echo "Removing old versions of the dummy packages..."
+rm -r StopAnemone.deb
+rm -r StopSnowboard.deb
+rm -r StopWinterboard.deb
+
+sleep 5
+
 echo "Removing .DS_Store files..."
 cd '/Users/gebruiker/Documents/GitHub/ud-team.github.io/repo/StopAnemone'
 find . -name '.DS_Store' -type f -delete
