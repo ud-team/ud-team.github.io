@@ -1,5 +1,4 @@
 # Nepeta-Mirror
-## Copied from Chr0nicT to this repository for easy installing
 The hero we don't deserve.
 
 
