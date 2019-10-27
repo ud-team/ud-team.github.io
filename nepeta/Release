@@ -4,7 +4,7 @@ Version: 1.0
 Architectures: iphoneos-arm
 Components: main
 Codename: ominousness
-Description: Nepeta's repo for mostly FOSS software. Supports Cydia and Zebra. (MIRROR)
+Description: Nepeta's repo for mostly FOSS software, mirrored by UD-Team. Supports Cydia and Zebra.
 MD5Sum:
  5ab1eace4f885275b5d0dbf5105b2cc3 166092 Packages
  401fbf7b339a90e949fc41077c7e9f87 33716 Packages.bz2
