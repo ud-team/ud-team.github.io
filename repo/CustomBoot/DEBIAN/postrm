@@ -1,0 +1,10 @@
+#!/bin/bash
+echo "The backup made before installation will now be restored..."
+set -e
+cd "/"
+echo "Restoring files from /Library/Application Support/CustomBoot..."
+mv -f "/Library/Application Support/CustomBoot/apple-logo-black-n84@2x~iphone.png" "/System/Library/PrivateFrameworks/ProgressUI.framework/" || echo "Failed to restore backup!"
+mv -f "/Library/Application Support/CustomBoot/apple-logo-black@2x~iphone.png" "/System/Library/PrivateFrameworks/ProgressUI.framework/" || echo "Failed to restore backup!"
+echo "Removing backup folder..."
+rmdir "/Library/Application Support/CustomBoot/" || set -e && echo "Failed to remove directory!"
+echo "Finished restoring the backup!"

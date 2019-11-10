@@ -1,0 +1,10 @@
+#!/bin/bash
+echo "The regular boot logo will be backed up before installing..."
+set -e
+cd "/"
+echo "Creating backup directory in /Library/Application Support/CustomBoot/..."
+mkdir "/Library/Application Support/CustomBoot" || echo "Failed to create backup directory!"
+echo "Copying over files..."
+mv -f "/System/Library/PrivateFrameworks/ProgressUI.framework/apple-logo-black-n84@2x~iphone.png" "/Library/Application Support/CustomBoot/" || echo "Failed to backup files!"
+mv -f "/System/Library/PrivateFrameworks/ProgressUI.framework/apple-logo-black@2x~iphone.png" "/Library/Application Support/CustomBoot/" || echo "Failed to backup files!"
+echo "Finished backing up!"

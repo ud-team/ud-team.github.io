@@ -1,0 +1,10 @@
+Package: tk.ud-team.CustomBoot
+Name: CustomBoot
+Version: 0.2.0
+Architecture: iphoneos-arm
+Description: A tweak to change your boot logo.
+Depiction: https://ud-team.github.io/repo/depictions/CustomBoot.html
+Homepage: https://ud-team.github.io/
+Maintainer: UD-Team <flipp3rrr@protonmail.com>
+Author: Flipp3rrr <flipp3rrr@protonmail.com>
+Section: Tweaks

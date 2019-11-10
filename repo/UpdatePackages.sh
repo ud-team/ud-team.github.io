@@ -7,6 +7,7 @@ echo "Removing old versions of the dummy packages..."
 rm -r StopAnemone.deb
 rm -r StopSnowboard.deb
 rm -r StopWinterboard.deb
+rm -r CustomBoot.deb
 
 sleep 5
 
@@ -17,6 +18,8 @@ cd '/Users/gebruiker/Documents/GitHub/ud-team.github.io/repo/StopSnowboard'
 find . -name '.DS_Store' -type f -delete
 cd '/Users/gebruiker/Documents/GitHub/ud-team.github.io/repo/StopWinterboard'
 find . -name '.DS_Store' -type f -delete
+cd '/Users/gebruiker/Documents/GitHub/ud-team.github.io/repo/CustomBoot'
+find . -name '.DS_Store' -type f -delete
 
 sleep 3
 
@@ -25,6 +28,7 @@ cd '/Users/gebruiker/Documents/GitHub/ud-team.github.io/repo'
 dpkg-deb -b StopAnemone
 dpkg-deb -b StopSnowboard
 dpkg-deb -b StopWinterboard
+dpkg-deb -b CustomBoot
 
 sleep 3
 
